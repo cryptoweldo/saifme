@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaifMe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Slackey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="imgs/main.svg" height="60px"  alt="Remove">
+    <div id="buttonDown">
+        <img src="imgs/yalla.svg" height="40px"  alt="Remove">
+    <input type="file" id="layer0" accept="image/*">
+    <label for="layer0" class="custom-file-upload">
+        Choose Image
+    </label>
+    </div>
+    <br>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <br>
+    <div id="buttonContainer" class="hidden">
+    <button id="removeBtn"><img src="imgs/remove.svg" alt="Remove"></button>
+    <button id="enlargeBtn"><img src="imgs/zoomin.svg" alt="Enlarge"></button>
+    <button id="reduceBtn"><img src="imgs/zoomout.svg" alt="Reduce"></button>
+    <br>
+    <button id="downloadBtn">Click to save your saif</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

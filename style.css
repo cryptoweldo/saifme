@@ -1,0 +1,84 @@
+
+body {
+    background-color: #1c1c1c;
+    text-align: center;
+    margin: 20px;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#buttonDown {
+    display: block;
+  margin: auto;
+}
+
+canvas {
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #6dff24;
+    color: white;
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 16px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #60df21;
+}
+
+input[type="file"] {
+    margin-top: 20px;
+}
+
+#downloadBtn {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #6dff24;
+    color: #1c1c1c;
+    font-family: "Slackey", sans-serif;
+}
+
+#downloadBtn:hover {
+    background-color: #60df21;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    background-color: #ff8929;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.custom-file-upload:hover {
+    background-color: #ff5f29;
+}
+
+input[type="color"] {
+    margin-top: 20px;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
